@@ -1,0 +1,29 @@
+
+import time
+curr = time.ctime()
+
+name = input("Enter your name : ")
+print("Hi", name, "How can i assist you ?")
+
+
+
+
+
+for i in range (10000):  
+  chat=str(input("ask some question:"))
+  
+  
+  if chat == "what are you doing":
+     print("Nothing, i am just waiting for your question to serve you better answer.....thank you")
+  elif chat == "quit":
+     break
+  elif chat == "hi":
+     print("hello")
+  elif chat == "how are you":
+     print("i am fine") 
+  elif chat == "what is the time now":   
+     print("Current time:", curr)
+  
+     
+  else :
+     print("i cann't understand what are you say!!!.....sorry")
